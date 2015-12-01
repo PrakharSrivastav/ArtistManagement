@@ -23,7 +23,7 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8 h4">
-                                <p class="text-center about-text" style="letter-spacing: 2px;"><br>Archfold, Inc. is an entertainment and media company with diversified holdings ranging from music, technology, digital media, and philanthropy. With vision and guidance by founder Garrett Jacobs, Archfold, Inc. combines creativity, interactive audiences, and innovative marketing to help establish the future of popular culture.</p>
+                                <p class="text-center about-text" style="letter-spacing: 2px;"><br>Archfold, LLC is an entertainment company with diversified holdings ranging from music, technology, and digital media. Our goal is to combine creativity in all ventures to create change to impact culture.</p>
                             </div>
                         </div>
                         <div class="row">
@@ -34,12 +34,13 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8 h4">
                                 <p class="text-center text-uppercase about-text" style="font-weight:500;letter-spacing: 3px;">
-                                    <br>SO MANY OF US GO THROUGH LIFE <span class="diff">SCARED</span>. SCARED OF THE UNKNOWN THAT IS TO COME. <br><br>
+                                    <br> Many of us struggle to <span class="diff">create</span>. We fear that it will not be good. <br><br>
                                     OUR GOAL IS TO CREATE AN ENVIRONMENT WHERE <span class="diff">FEAR AND FAILURE ARE NOTHING MORE THAN REST STOPS ON THE ROAD TO SUCCESS.</span> 
-                                    WE WANT TO MOTIVATE PEOPLE TO FIND THEIR PATH TO PURPOSE AND <span class="diff">EXECUTE ON IT.</span> 
-                                    WE WANT TO TURN EXCITEMENT INTO <span class="diff">MOVEMENT.</span> WE WANT TO CREATE <span class="diff">REALITY</span> FROM OUR <span class="diff">DREAMS.</span>
-                                    WE WANT A YOUNG PERSON TO WAKE UP IN THE MORNING AND REALIZE THAT THEY HAVE MEANING. <span class="diff">AND THAT MEANING HAS WORTH.</span>
-                                    <br><br>WHAT IS OUR GOAL? OUR GOAL IS TO <span class="diff">INSPIRE THE WORLD TO TRY.</span>
+                                     We believe we can motivate people to find <span class="diff">purpose</span>  and <span class="diff">desire</span> in their life and to recognize the importance that it has.
+                                     To create, takes nothing more than a <span class="diff">vision</span>.  That vision contains  <span class="diff">meaning.</span><br><br>
+                                     Our goal is to create a world where creators start with <span class="diff">vision</span> and make <span class="diff">reality.</span>
+
+                                    
                                 </p>
                             </div>
                         </div>
@@ -55,9 +56,9 @@
                                     <li>Extreme Work-Ethic</li>
                                     <li>Family</li>
                                     <li>Purpose & Desire</li>
-                                    <li>Things can always be improved</li>
+                                    <!-- <li>Things can always be improved</li> -->
                                     <li>What’s Your Why?</li>
-                                    <li>A leader lies in you</li>
+                                    <li>Leaders</li>
                                     <li>Be Extraordinary</li>
                                     <li>Live Inspiration</li>
                                 </ul>
@@ -79,13 +80,13 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 box" >
                                 <!--src="<?= base_url() ?>img/Garrett.png"-->
-                                <img  style="height:400px;width:100%" class="img-responsive" alt="Garret Jacobs">
+                                <img  src="" style="height:400px;width:100%" class="img-responsive" >
                             </div>
                             <div class="col-xs-12 col-sm-6 padding-10" style="background: url(<?= base_url() ?>img/dots.png);height:400px;overflow-y: auto;color:#dddddd" >
                                 <h1 class="text-left">Garrett Jacobs</h1>
                                 <h2 class="text-left">Founder</h2>
                                 <p class="text-justfy h4">
-                                    dkdnkcjncjlnclc</p>
+                                    </p>
                             </div>
                         </div>
                         <div class="row bg-black">

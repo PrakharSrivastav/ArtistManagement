@@ -22,7 +22,7 @@
                     <div class="panel-body no-padding">
                         <div class="row" style="background:url(<?= base_url() ?>/img/dots.png);position:relative;height:300px;padding-top:80px;border-bottom:solid #740202 4px;">
                             <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8 h4">
-                                <p class="text-center h1 about-text" style="color:#dddddd">Archfold Management is a talent management company that operates much like a family.</p>
+                                <p class="text-center h1 about-text" style="color:#dddddd">Archfold Management is a newly established, talent management company focusing on serving clients in the music industry.</p>
                             </div>
                             <h3 style="background:#740202;color:#dddddd;position:absolute;bottom:-10px;left:0px;padding:5px 10px 5px 10px">ARTISTS</h3>
                         </div>
@@ -82,7 +82,7 @@
                     <div class="panel-body  no-padding" >
                         <div class="row padding-10"  style="background: url(<?= base_url() ?>img/dots.png);color:#dddddd">
                             <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8 h4 padding-top-10">
-                                <p class="text-center h1 about-text">DormRoom Records is a fast-growing, independent record label that blends a unique level of artist attention with the resources and contacts to major labels and distribution channels. Artists include Kate Barnette, Daniel Hidalgo, Daniel Lee Band and Kane Brown.</p>
+                                <p class="text-center h1 about-text">DormRoom Records is an independent record label that blends a unique level of artist attention with the resources and contacts to major labels and distribution channels.</p>
                             </div>
                             <div class="col-xs-offset-2 col-xs-8 col-sm-offset-5 col-sm-2 padding-bottom-10">
                                 <img src="<?= base_url() ?>img/Music-Logo1.png" style="width:100px;display: block;margin:0 auto;" class="img-responsive" alt="DromRoom Records">

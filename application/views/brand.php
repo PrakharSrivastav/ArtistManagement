@@ -8,7 +8,9 @@
     </div>
     <div class="row" style="height:300px;padding-top:80px;background: url(<?= base_url() ?>img/dots.png);color:#dddddd">
         <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-lg-8 text-center " >
-            <p class="h3 about-text">We selectively partner with brands that we believe in to leverage our deep insight on consumer engagement and access to influencers to strategize and implement ground breaking campaigns. Our prerequisite: every campaign we do must include a charitable component.</p>
+            <p class="h3 about-text" style="margin-top:-10px">We are actively pursuing partnerships with brands that agree with our same values and beliefs. If that’s you, please get in touch.
+<br /><br />
+All partnerships must involve a charitable component.</p>
         </div>
     </div>
     <div class="row" >

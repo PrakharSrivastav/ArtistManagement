@@ -8,7 +8,7 @@
     </div>
     <div class="row" id="philanth_id" style="">
         <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-lg-8 text-center " >
-            <p class="h3 about-text">One of our core values is doing well by doing good. Some wait until the end of their careers to give back to the world. We make it a part of everything that we do. </p>
+            <p class="h3 about-text">We believe in giving back to others and incorporating that in all that we do. We partner with various charities to fulfill this mission. </p>
         </div>
     </div>
     <div class="row" >

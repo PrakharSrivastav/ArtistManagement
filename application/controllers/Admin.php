@@ -13,7 +13,6 @@ class Admin extends CI_Controller {
     }
 
     public function index() {
-//        print_r($this->input->post());
         $this->load->view("admin/login");
     }
 
@@ -171,6 +170,7 @@ class Admin extends CI_Controller {
 //            $this->form_validation->set_rules("buy_url", "Purchase URL", "required");
 
             if ($this->form_validation->run() == FALSE) {
+
                 $this->load->view('admin/add_album');
             } else {
                 $data = array(
@@ -274,7 +274,7 @@ class Admin extends CI_Controller {
                 'upload_path' => "./uploads/",
                 'allowed_types' => "gif|jpg|png|jpeg",
                 'overwrite' => TRUE,
-                'max_size' => "2048000",
+                'max_size' => "20480000",
             );
 
             # load the file upload library
@@ -295,8 +295,9 @@ class Admin extends CI_Controller {
                     redirect(site_url("admin/dashboard"));
                 }
             } else {
-                $error = array('error' => $this->upload->display_errors());
-                $this->load->view('admin/add_image', $error);
+                print_r($this->upload->display_errors());
+                // $error = array('error' => $this->upload->display_errors());
+                // $this->load->view('admin/add_image', $error);
             }
         } else {
             $this->session->sess_destroy();

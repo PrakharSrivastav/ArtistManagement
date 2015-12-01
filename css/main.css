@@ -157,7 +157,7 @@ a.scroll-panel-music:hover    {text-decoration:none !important;}
 #philan_logo            {background: url(../img/Clouds.jpeg);background-repeat: no-repeat;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;padding-top:90px;height:300px}
 #music_header           {background:url(../img/Music.png);background-size: cover;height:300px;}
 #about_header           {width:100%;height:300px}
-#tv_film_header         {background:url(../img/TV_Film2.png) no-repeat center center fixed;background-size: cover;height:300px;}
+#tv_film_header         {background:url(../img/TV_Film2.png) ;background-size: cover;height:300px;}
 #inter_header           {background:url(../img/Splatter-Red.png) ;background-size: cover;height:365px;}
 #overlay                {width:100%;margin-top:-20px;background: url(../img/Overlay.png);background-size: cover;height:365px;}
 @media screen and (max-width: 768px) {
