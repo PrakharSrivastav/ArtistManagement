@@ -1,0 +1,256 @@
+@font-face{font-family:'proxima_nova_condensed';src:url('../fonts/proximanovacond-light-webfont.eot');src:url('../fonts/proximanovacond-light-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-light-webfont.woff') format('woff'),url('../fonts/proximanovacond-light-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-light-webfont.svg#proxima_nova_condensedlight') format('svg');font-weight:200;font-style:normal;}
+@font-face{font-family:'proxima_nova_condensed';src: url("../fonts/'proximanovacond-lightit-webfont.eot");}
+@font-face{font-family:'proxima_nova_condensed';src:url('../fonts/proximanovacond-regularit-webfont.eot');src:url('../fonts/proximanovacond-regularit-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-regularit-webfont.woff') format('woff'),url('../fonts/proximanovacond-regularit-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-regularit-webfont.svg#proxima_nova_condensedRgIt') format('svg');font-weight:400;font-style:italic}
+@font-face{font-family:'proxima_nova_condensed';src:url('../fonts/proximanovacond-semibold-webfont.eot');src:url('../fonts/proximanovacond-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-semibold-webfont.woff') format('woff'),url('../fonts/proximanovacond-semibold-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-semibold-webfont.svg#proxima_nova_condensedSBd') format('svg');font-weight:500;font-style:normal}
+@font-face{font-family:'proxima_nova_condensed';src:url('../fonts/proximanovacond-semiboldit-webfont.eot');src:url('../fonts/proximanovacond-semiboldit-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovacond-semiboldit-webfont.woff') format('woff'),url('../fonts/proximanovacond-semiboldit-webfont.ttf') format('truetype'),url('../fonts/proximanovacond-semiboldit-webfont.svg#proxima_nova_condensedSBdIt') format('svg');font-weight:500;font-style:italic}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-light-webfont.eot');src:url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-light-webfont.woff') format('woff'),url('../fonts/proximanova-light-webfont.ttf') format('truetype'),url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');font-weight:200;font-style:normal}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-lightitalic-webfont.eot');src:url('../fonts/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-lightitalic-webfont.woff') format('woff'),url('../fonts/proximanova-lightitalic-webfont.ttf') format('truetype'),url('../fonts/proximanova-lightitalic-webfont.svg#proxima_novalight_italic') format('svg');font-weight:200;font-style:italic}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-regular-webfont.eot');src:url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-regular-webfont.woff') format('woff'),url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-regitalic-webfont.eot');src:url('../fonts/proximanova-regitalic-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-regitalic-webfont.woff') format('woff'),url('../fonts/proximanova-regitalic-webfont.ttf') format('truetype'),url('../fonts/proximanova-regitalic-webfont.svg#proxima_novaregular_italic') format('svg');font-weight:400;font-style:italic}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-semibold-webfont.eot');src:url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-semibold-webfont.woff') format('woff'),url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),url('../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');font-weight:500;font-style:normal}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-semibolditalic-webfont.eot');src:url('../fonts/proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-semibolditalic-webfont.woff') format('woff'),url('../fonts/proximanova-semibolditalic-webfont.ttf') format('truetype'),url('../fonts/proximanova-semibolditalic-webfont.svg#proxima_novasemibold_italic') format('svg');font-weight:500;font-style:italic}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-bold-webfont.eot');src:url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-bold-webfont.woff') format('woff'),url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');font-weight:600;font-style:normal}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-boldit-webfont.eot');src:url('../fonts/proximanova-boldit-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-boldit-webfont.woff') format('woff'),url('../fonts/proximanova-boldit-webfont.ttf') format('truetype'),url('../fonts/proximanova-boldit-webfont.svg#proxima_nova_rgbold_italic') format('svg');font-weight:600;font-style:italic}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-extrabold-webfont.eot');src:url('../fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-extrabold-webfont.woff') format('woff'),url('../fonts/proximanova-extrabold-webfont.ttf') format('truetype'),url('../fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');font-weight:800;font-style:normal}
+@font-face{font-family:'proxima_nova';src:url('../fonts/proximanova-black-webfont.eot');src:url('../fonts/proximanova-black-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-black-webfont.woff') format('woff'),url('../fonts/proximanova-black-webfont.ttf') format('truetype'),url('../fonts/proximanova-black-webfont.svg#proxima_novablack') format('svg');font-weight:900;font-style:normal}
+
+/* General Styles */
+body                    {overflow-x: hidden !important;padding-top:90px;background:#dddddd; font-family:'proxima_nova';
+                         -webkit-font-smoothing: antialiased;}
+.content                {background-color: #dddddd;} 
+
+/*  menu styles */
+.menu-item  a           {font-family:'proxima_nova_condensed';-moz-transition:0.01s;color:#404040 !important;
+                         -webkit-transition:0.01s;transition:0.01s;font-size:14px;margin-top: 20px !important;
+                         font-weight: 500;}
+.menu-item:hover    *   {border-bottom:solid 1px #404040 !important}
+.menu-clicked           {border-bottom:solid 1px #404040 !important}
+.navbar-brand           {padding-left:20px} 
+.navber-item            {color:#404040;padding:15px 4px 0px 4px;}
+#social-media-icons     {padding-right: 30px}
+.navbar                 {background:#dddddd;height: 93px;padding:0px !important;}
+#img-header             {height:85px;margin-top:-12px;z-index: 1000}
+#menu-itm-list          {margin-left:200px;}
+.navbar-default         {border-bottom: solid #404040 2px !important; }
+#menu-items             {height:90px !important}
+
+/*  submenu styles  */
+.submenu-items a         {font-family:'proxima_nova_condensed';-moz-transition:0.2s;-webkit-transition:0.2s;
+                          transition:0.2s;padding:8px;color:#fff;font-weight: 500;font-size: 15px;
+                          cursor: pointer !important}
+.submenu-items a:hover   {text-decoration: none; }
+.submenu-items :hover    {color:#000;background:#fff}
+.s-menu                  {margin-top:0px;position: fixed;top:93px;left:0;width:100%;padding:10px}
+
+/*  carousal styles */
+.img-thumbnail          {border-radius:0px;}
+
+/*  news styles */
+.thumbnail ,
+.input-group-addon      {border-radius:0px !important;border:none;font-family:'proxima_nova'}
+.form-control           {border-radius:0px;border:solid #404040 1px;font-family:'proxima_nova'}
+
+/*  landing page images */
+div.images              {position:relative;filter: gray;filter: grayscale(1);-webkit-filter: grayscale(1);}
+.images img             {-moz-transition:0.4s;-webkit-transition:0.4s;transition:0.4s;opacity:0.7;
+                         width:100% !important;height:400px;}
+.images:hover   > img   {opacity: 1.0;}
+.images:hover           {filter: none;-webkit-filter: grayscale(0);}
+.cover-140-300           {background-repeat: no-repeat;-webkit-background-size:cover;-moz-background-size:cover;
+                          -o-background-size:cover;background-size:cover;padding-top:130px;height:300px}
+.cover-top-50           {background-repeat: no-repeat;-webkit-background-size:cover;-moz-background-size:cover;
+                         -o-background-size:cover;background-size:cover;padding-top:5px}
+
+/*  footer    */
+li.footer-menu-item a   {color:#404040 !important;text-decoration: none;font-weight:500;font-size:12px}
+footer                  {font-family:'proxima_nova_condensed';background-color:#dddddd}
+footer > *              {color:#404040 !important;}
+.input-group-addon      {border-left:solid 1px #404040;border-top:solid 1px #404040;border-bottom:solid 1px #404040;}
+#copyright ,
+#copyright a            {font-family:'proxima_nova_condensed';font-weight:500;font-size:12px;padding:0 !important;
+                         color:#404040 !important}
+
+/*  common styles   */   
+.bg-black               {background:#000}
+.bg-red                 {background : #dddddd !important;}
+.bg-white               {background : #fff !important;}
+.bg-grey                {background-color:#dddddd}
+.btn                    {border-radius:0px;padding:5px;font-family:'proxima_nova'}
+.text-black             {color:#000}
+.text-red               {color:#000}
+.white                  {color:#fff}
+.big-font               {font-size :20px}
+.btn-font               {font-size :17px}
+.transparent            {background-color : transparent;}
+.label                  {border-radius:0px;padding:5px}
+.no-padding             {padding:0px !important}
+.padding-5              {padding: 5px}
+.padding-10             {padding: 10px}
+.padding-left-10        {padding-left: 10px}
+.padding-right-10       {padding-right: 10px}
+.padding-right-20       {padding-right: 20px}
+.padding-right-30       {padding-right: 30px}
+.padding-bottom-40      {padding-bottom: 40px}
+.padding-top-10         {padding-top:10px}
+.margin-top-20          {margin-top:25px}
+.margin-n-t-30         {margin-top:-30px}
+.margin-n-t-20         {margin-top:-20px}
+.padding-top-20         {padding-top:20px}
+.padding-top-100        {padding-top:100px !important}
+.padding-bottom-10      {padding-bottom:10px}
+.box                    {box-shadow: 5px 5px 5px #888888;}
+.grey-top-border        {border:solid 1px #e0e0d1}
+div.panel ,
+div.panel-title ,
+div.panel-heading  ,
+div.panel-body          {border-radius:0 !important;border:none !important}
+div.panel-heading a     {text-decoration-line: none; color:#000;text-align:center;}
+.font-30                {font-size: 30px !important}
+.full-width             {width:100% !important}
+.height-100             {height:100px}
+.height-300             {height:300px}
+.normal-link            {text-decoration:none !important; color: #000;}
+
+.heading-1              {background:#fd9b9b; height:120px;padding-top:35px;}
+.heading-2              {background:#fc3636;height:120px;padding-top:35px;}
+.heading-3              {background:#c90303;height:120px;padding-top:35px;}
+.heading-4              {background:#800000;height:120px;padding-top:35px;}
+.heading-5              {background:#800000;height:120px;padding-top:35px;}
+
+.heading-1 h1,
+.heading-2 h1,
+.heading-3 h1,
+.heading-4 h1,
+.heading-5 h1           {font-family:'proxima_nova_condensed';color:#fff;font-size:50px !important;
+                         font-weight:700 !important}
+.heading-1 i,
+.heading-2 i,
+.heading-3 i,
+.heading-4 i,
+.heading-5 i            {color:#fff;margin-top:-50px}
+
+.container {overflow-x: hidden !important}
+
+/*  ABOUT PAGE  */
+.about-text             {font-family:'proxima_nova_condensed';font-size:21px;font-weight:500;line-height:34px;}
+.diff                   {color:#fd9b9b !important}
+a.scroll-panel:hover    {text-decoration:none !important;}
+a.scroll-panel-music:hover    {text-decoration:none !important;}
+
+/*  news details    */
+.news-title             {padding-left:40px;font-weight:500;color: #000}
+.news-content           {padding-left: 40px;color:#000}
+
+/*  tweets  */
+.tweets                 {background:#f5f5f0;border-radius:0px !important;margin-bottom:-15px !important;
+                         box-shadow:-2px 2px 4px #888;}
+
+/*  releases */
+.releases               {background:#f5f5f0;border-left:solid #ffaaee 3px;margin-bottom:6px;
+                         box-shadow: -2px 2px 4px #888888;}
+#iteractive             {height:300px;padding-top:70px;}
+#iter_projects          {;background-repeat: no-repeat;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;padding-top:180px;height:400px}
+#img_friv               {width:250px;display: block;margin:0 auto;}
+#img_wish               {width:100px;display: block;margin:0 auto;margin-top:-20px}
+#img_proxy              {width:250px;display: block;margin:0 auto;}
+#philanth_id            {height:300px;padding-top:100px;background: url(../img/dots.png);color:#dddddd}
+#philan_logo            {background: url(../img/Clouds.jpeg);background-repeat: no-repeat;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;padding-top:90px;height:300px}
+#music_header           {background:url(../img/Music.png);background-size: cover;height:300px;}
+#about_header           {width:100%;height:300px}
+#tv_film_header         {background:url(../img/TV_Film2.png) no-repeat center center fixed;background-size: cover;height:300px;}
+#inter_header           {background:url(../img/Splatter-Red.png) ;background-size: cover;height:365px;}
+#overlay                {width:100%;margin-top:-20px;background: url(../img/Overlay.png);background-size: cover;height:365px;}
+@media screen and (max-width: 768px) {
+    #philan_logo            {padding-top:20px}
+    #philanth_id            {padding-top:40px !important;}
+    body                    {padding-top:50px;overflow-x:hidden !important}
+    .navbar                 {height: 50px;margin-bottom: -10px !important;}
+    .navbar-header          {background: #dddddd}
+    .menu-item  a           {padding-top: 0px !important;font-size:14px !important;}
+    .s-menu                 {top:50px;}
+    div.submenu-items  a    {font-size:15px !important;padding:4px}
+    #menu-itm-list          {margin-left:10px !important;}
+    .images img             {height: 150px}
+    .navbar-brand           {padding-left:10px}
+    #img-header             {height:43px !important;margin-top:-10px !important;margin-left:-10px !important}
+    .menu-item:hover    *   {background:#dddddd !important;border:solid #dddddd 1px;}
+    .menu-clicked           {background:#dddddd !important;border:none;}
+    .heading-1 h1,
+    .heading-2 h1,
+    .heading-3 h1,
+    .heading-4 h1           {font-family:'proxima_nova_condensed';color:#fff;font-size:30px !important;
+                             font-weight:700 !important;}
+    .heading-1 i,
+    .heading-2 i,
+    .heading-3 i,
+    .heading-4 i            {color:#fff;margin-top:-30px}
+    #iteractive             {height:350px;padding-top:10px;}
+    #iter_projects          {padding-top:100px;height:400px}
+    #img_friv               {padding-bottom:30px}
+    #menu-items             {height:auto !important}
+    #music_header           {margin-top:40px;background:url(../img/Music-Small.png);background-size: cover;height:190px}
+    .heading-5              {background:#800000;height:120px;padding-top:45px;}
+    .heading-5 h1           {font-family:'proxima_nova_condensed';color:#fff;font-size:20px !important;
+                             font-weight:700 !important}
+    .heading-5 i            {color:#fff;font-size:20px !important;margin-top:-20px}
+    .heading-1 h1,
+    .heading-2 h1,
+    .heading-3 h1,
+    .heading-4 h1,
+    .heading-5 h1           {font-family:'proxima_nova_condensed';color:#fff;font-size:20px !important;
+                             font-weight:700 !important}
+    .heading-1 i,
+    .heading-2 i,
+    .heading-3 i,
+    .heading-4 i,
+    .heading-5 i            {color:#fff;font-size:20px !important;margin-top:-20px}
+    .heading-1              {background:#fd9b9b; height:120px;padding-top:45px;}
+    .heading-2              {background:#fc3636;height:120px;padding-top:45px;}
+    .heading-3              {background:#c90303;height:120px;padding-top:45px;}
+    .heading-4              {background:#800000;height:120px;padding-top:45px;}
+    #about_header           {margin-top:40px;height:190px !important}
+    #tv_film_header         {background:url(../img/TV_Film-Small.png) no-repeat  !important;background-size: cover !important;height:190px !important;}
+    #inter_header           { ;background-size: cover;height:190px;}
+    #overlay                {background: url(../img/Overlay-Small.png) no-repeat center 40px fixed !important;}
+    #phil_header            {height:190px}
+}
+
+@media (max-width: 1200px) {
+    .menu-item a            {font-size:12px;}
+    #menu-itm-list          {margin-left:85px;margin-top:0px}
+    #social-media-icons     {padding-right: 50px}
+}
+
+@media (max-width: 992px) {
+    #img-header             {height:65px;margin-top:-2px}
+    #menu-itm-list          {margin-left:0px;margin-top:0px}
+    .menu-item a            {font-size:11px;}
+    #social-media-icons     {padding-right: 10px}
+    /*#about_header           {height:200px !important}*/
+    #overlay                {background: url(../img/Overlay-Small.png) no-repeat center 90px fixed ;}
+}
+
+.modal-content          {-webkit-border-radius:0px !important;-moz-border-radius:0px !important;
+                         border-radius:0px !important;background:#000;color:#fff;padding:10px;}
+
+/* Hover effects for artists */
+.hovereffect            {width:100%;height:100%;float:left;overflow:hidden;position:relative;text-align:center;
+                         cursor:default;}
+.hovereffect .overlay   {width:100%;height:100%;position:absolute;overflow:hidden;top:0;left:0;opacity:0;
+                         background-color:rgba(0,0,0,0.1);-webkit-transition:all .4s ease-in-out;
+                         transition:all .4s ease-in-out}
+.hovereffect img        {display:block;position:relative;-webkit-transition:all .4s linear;
+                         transition:all .4s linear;}
+.hovereffect h2         {text-transform:uppercase;color:#dddddd;text-align:left;position:relative;margin-top:220px;
+                         font-family:'proxima_nova_condensed';font-size:30px;background:rgba(0,0,0,0.7);
+                         -webkit-transform:translatey(100px);-ms-transform:translatey(100px);padding:10px;
+                         transform:translatey(100px);-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+.hovereffect a.info     {color:#dddddd;font-size:34px;font-family:'proxima_nova_condensed';font-weight: 500}
+
+.hovereffect a.info:hover   {text-decoration: none;color:#dddddd;}
+.hovereffect:hover img      {-ms-transform:scale(1.2);-webkit-transform:scale(1.2);transform:scale(1.2);}
+.hovereffect:hover .overlay {opacity:1;}
+.hovereffect:hover h2,
+.hovereffect:hover a.info   {opacity:1;;-ms-transform:translatey(0);-webkit-transform:translatey(0);transform:translatey(0);}
+.hovereffect:hover a.info   {-webkit-transition-delay:.2s;transition-delay:.2s;}
+
